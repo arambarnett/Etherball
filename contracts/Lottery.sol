@@ -14,8 +14,8 @@ contract Lottery {
     event LotteryAmountPaid(address indexed _winner, uint64 _ticketID, uint256 _amount);
 
     // variables that I may want to change in the future
-    uint64 public ticketPrice = 5 finney;
-    uint64 public ticketMax = 25;
+    uint64 public ticketPrice = 50 finney;
+    uint64 public ticketMax = 250;
 
     // number of tickets is set to a hard 5, I hope I don't regret this
     // inb4 price of ethereum goes up to 10000 and funds are locked
